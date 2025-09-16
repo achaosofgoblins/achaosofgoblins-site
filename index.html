@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Chaos of Goblins</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #1e1e2f, #3a3a5c);
+      color: #fff;
+      font-family: "Trebuchet MS", sans-serif;
+      text-align: center;
+    }
+    .card {
+      background: rgba(0,0,0,0.6);
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+      max-width: 400px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+    .loader {
+      border: 4px solid rgba(255, 255, 255, 0.2);
+      border-top: 4px solid #ffcc00;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      margin: 0 auto;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    footer {
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>A Chaos of Goblins</h1>
+    <p>Our goblins are hard at work…</p>
+    <div class="loader"></div>
+    <footer>Site under construction</footer>
+  </div>
+</body>
+</html>
